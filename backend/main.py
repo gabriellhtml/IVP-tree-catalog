@@ -16,7 +16,7 @@ app.add_middleware(
 
 # Configurações da API PlantNet
 PLANTNET_API_URL = "https://my-api.plantnet.org/v2/identify/all"
-PLANTNET_API_KEY = "COLOQUE_SUA_CHAVE_AQUI" # Substitua pela sua chave real
+PLANTNET_API_KEY = "2b10bQF5Syk3XepkhK23MaoPO"
 
 @app.post("/api/identify")
 async def identify_plant(image: UploadFile = File(...)):

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import TreeForm from './components/TreeForm';
 import TreeList from './components/TreeList';
 
+import { loadTrees, saveTrees } from './utils/storage';
+
 export default function App() {
     const [trees, setTrees] = useState([]);
     const [editingId, setEditingId] = useState(null);

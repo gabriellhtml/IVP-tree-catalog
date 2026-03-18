@@ -2,3 +2,6 @@
 /dist
 /.env
 /.env.local
+/backend/venv
+/backend/__pycache__
+/backend/*.pyc
